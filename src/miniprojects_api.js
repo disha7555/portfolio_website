@@ -1,4 +1,4 @@
-const miniprojects=
+const miniprojects_data=
 [
 	{	"id":1,
 		"name":"TODO List(with add,delete)",
@@ -131,4 +131,4 @@ const miniprojects=
 	},	     
 ]
 
-export default miniprojects;
+export default miniprojects_data;
