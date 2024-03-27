@@ -46,3 +46,5 @@ const projects=
     "image":
     }	
 ]
+
+export default projects;
