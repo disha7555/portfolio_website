@@ -1,0 +1,80 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-toggle {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .navbar-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background-color: #333;
+      z-index: 999;
+    }
+  
+    .navbar-menu.active {
+      display: flex;
+    }
+  
+    .navbar-menu a {
+      padding: 10px 20px;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  }
+  
+  .navbar-menu a.active {
+    background-color: #4CAF50; /* Change background color for selected link */
+    color: #fff; /* Change text color for selected link */
+  }
+  
