@@ -22,10 +22,15 @@ function Projects(props) {
             <div className="card ">
                   <div className="card-body">
        
-        <img className="card-image" src={image} alt="no img" />
+       
         <div className="card-content">
           <h2 className="card-title">{name}</h2>
           <p className="card-description">Frontend technologies:{frontend_technologies}</p>
+          <img className="card-image" src={image} alt="no img" />
+         <div className='img'>
+         <p>See Live project:</p><a href={link}>Click here</a>
+         </div>
+          
         </div>
    </div>
    </div>

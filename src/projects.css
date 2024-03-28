@@ -12,13 +12,29 @@
       justify-content: space-around;
     }
   }
+  @media (max-width: 400px) {
+    .main-card-container {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(200px, 500px));
+      grid-gap: 50px;
+      justify-content: space-around;
+      margin: 3vw;
+    }
+  }
+  @media (max-width: 337) {
+   
+      .card-description {
+        font-size: 0.7rem;
+    }
+    }
+  
 .card {
     width: 100%;
     max-width: 400px; /* Adjust as needed */
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 10px auto;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-wrap: wrap;
