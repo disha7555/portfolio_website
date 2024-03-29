@@ -19,8 +19,8 @@ function Navbar() {
       <div className="navbar-container">
         <div className="navbar-brand">Disha Shah</div>
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
-          <a href="home"   className={selectedLink === 'home' ? 'active' : ''}
-          onClick={() => handleLinkClick('home')}>Home</a>
+          <a href="about"   className={selectedLink === 'about' ? 'active' : ''}
+          onClick={() => handleLinkClick('about')}>About</a>
 
           <a href="skills"   className={selectedLink === 'skills' ? 'active' : ''}
           onClick={() => handleLinkClick('skills')}>Skills</a>

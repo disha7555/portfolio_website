@@ -1,0 +1,38 @@
+.container{
+    color: white;
+}
+
+.container{
+    justify-content: center;
+    text-align: center;
+    margin: 2vw;
+    padding: 2vw;
+}
+.head{
+    font-size: 3rem;
+}
+.sub-head{
+    font-size: 2rem;
+}
+.content{
+    margin:4vw;
+    padding: 2vw;
+}
+@media (max-width:900px)
+{
+    .head{
+        font-size: 2.6rem;
+    }
+    .sub-head{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width:385px)
+{
+    .head{
+        font-size: 2rem;
+    }
+    .sub-head{
+        font-size: 1.3rem;
+    }
+}

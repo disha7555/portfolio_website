@@ -47,7 +47,7 @@ const miniprojects_data=
 	},
 	{"id":7,
 	  "name":"Form With Greeting Screen",
-	  "frontend_technologies":"ReactJS",
+	  "frontend_technologies":"HTML,CSS,ReactJS",
 	  "backend_technologies":"none",
 	  "link":"https://form-with-greeting-screen-with-react.onrender.com/",
 	  "image":"images/form_greeting.png"
