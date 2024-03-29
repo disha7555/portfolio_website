@@ -1,7 +1,9 @@
 .container{
     color: white;
 }
-
+*{
+    font-family: "Poppins", sans-serif;
+  }
 .container{
     justify-content: center;
     text-align: center;
@@ -9,10 +11,14 @@
     padding: 2vw;
 }
 .head{
+    margin:2vw;
     font-size: 3rem;
+    font-weight:700;
 }
 .sub-head{
+    margin:2vw;
     font-size: 2rem;
+    font-weight:500;
 }
 .content{
     margin:4vw;
@@ -22,17 +28,32 @@
 {
     .head{
         font-size: 2.6rem;
+        margin:4vw;
     }
     .sub-head{
         font-size: 1.6rem;
+        margin:4vw;
     }
 }
-@media (max-width:385px)
+@media (max-width:515px)
 {
     .head{
         font-size: 2rem;
+        margin:4vw;
     }
     .sub-head{
         font-size: 1.3rem;
+        margin:4vw;
+    }
+}
+@media (max-width:515px)
+{
+    .head{
+        font-size: 1.7rem;
+        margin:4vw;
+    }
+    .sub-head{
+        font-size: 1rem;
+        margin:4vw;
     }
 }
