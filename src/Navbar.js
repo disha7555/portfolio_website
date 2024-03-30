@@ -25,7 +25,8 @@ function Navbar() {
           <a href="skills"   className={selectedLink === 'skills' ? 'active' : ''}
           onClick={() => handleLinkClick('skills')}>Skills</a>
 
-          <a href="academics"   className={selectedLink === 'academics' ? 'active' : ''}
+       
+<a href="academics"   className={selectedLink === 'academics' ? 'active' : ''}
           onClick={() => handleLinkClick('academics')}>Academics</a>
 
           <a href="projects"   className={selectedLink === 'projects' ? 'active' : ''}
@@ -33,6 +34,7 @@ function Navbar() {
 
           <a href="miniprojects"   className={selectedLink === 'miniprojects' ? 'active' : ''}
           onClick={() => handleLinkClick('miniprojects')}>Mini Projects</a>
+
 
           <a href="achievements"   className={selectedLink === 'achievements' ? 'active' : ''}
           onClick={() => handleLinkClick('achievements')}>Achievements</a>

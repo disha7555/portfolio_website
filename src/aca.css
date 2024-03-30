@@ -1,0 +1,125 @@
+table {
+    width: fit-content;
+    border-collapse: collapse;
+  }
+  .cap{
+  
+    font-size:1.5rem;
+    font-weight:700;
+  }
+  table, th, td {
+    border: 1px solid white;
+  }
+  
+  th, td {
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .table-container{
+   margin-top: 5vw;
+    color: white;
+    width:inherit;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  @media (max-width: 600px) {
+    .table-container{
+        width:auto;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      th, td {
+        padding: 10px;
+        text-align: center;
+      }
+      table {
+    
+        width: 10vw;
+        border-collapse: collapse;
+      }
+}
+@media (max-width: 465px) {
+    .table-container{
+        width:auto;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      th, td {
+        padding: 5px;
+        text-align: center;
+      }
+      table {
+    
+        width: 7vw;
+        border-collapse: collapse;
+      }
+}
+@media (max-width: 405px) {
+    .table-container{
+        width:auto;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      th, td {
+        padding: 2px;
+        text-align: center;
+      }
+      table {
+    
+        width: 4vw;
+        border-collapse: collapse;
+      }
+}
+@media (max-width: 385px) {
+    .table-container{
+        width:auto;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      th, td {
+        padding:1.9vw;
+        text-align: center;
+        font-size:0.9rem;
+      }
+      table {
+    
+        width: 4vw;
+        border-collapse: collapse;
+      }
+}
+@media (max-width: 365px) {
+    .table-container{
+        width:auto;
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      th, td {
+        padding:1.9vw;
+        text-align: center;
+        font-size:0.8rem;
+      }
+      table {
+    
+        width: 4vw;
+        border-collapse: collapse;
+      }
+}

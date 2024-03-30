@@ -84,10 +84,10 @@
     font-size: 16px; /* Default font size */
   }
   
-  .navbar-menu a:hover {
+  /* .navbar-menu a:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
-  
+   */
   .navbar-menu a.active {
     background-color: #4CAF50; /* Change background color for selected link */
     color: #fff; /* Change text color for selected link */
