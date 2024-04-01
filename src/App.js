@@ -14,6 +14,8 @@ import projects_data from './projects_api';
 import React from 'react';
 import { useState } from 'react';
 import Skills from './Skills';
+import Resume from './Resume';
+import Experience from './Experience';
 function App() {
 
   const [projectsdata,SetProjectsData]=useState(projects_data);
@@ -30,6 +32,8 @@ function App() {
         <Route path="/achievements" element={<Achievements/>}></Route>
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/nav" element={<Navbar/>}></Route>
+        <Route path="/resume" element={<Resume/>}></Route>
+        <Route path="/experience" element={<Experience/>}></Route>
       </Routes>
     </BrowserRouter>
   </>);

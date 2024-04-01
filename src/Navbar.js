@@ -35,6 +35,11 @@ function Navbar() {
           <a href="miniprojects"   className={selectedLink === 'miniprojects' ? 'active' : ''}
           onClick={() => handleLinkClick('miniprojects')}>Mini Projects</a>
 
+            <a href="experience"   className={selectedLink === 'experience' ? 'active' : ''}
+          onClick={() => handleLinkClick('experience')}>Experience</a>
+
+<a href="resume"   className={selectedLink === 'resume' ? 'active' : ''}
+          onClick={() => handleLinkClick('resume')}>Resume</a>
 
           <a href="achievements"   className={selectedLink === 'achievements' ? 'active' : ''}
           onClick={() => handleLinkClick('achievements')}>Achievements</a>

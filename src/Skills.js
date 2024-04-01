@@ -12,7 +12,7 @@ function Skills() {
         </div>
         <div className='cover'>
         <div className='list1'>
-          <h2>Proficient:</h2>
+          <h2  className='h'>Proficient:</h2>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -26,7 +26,7 @@ function Skills() {
           </ul>
         </div>
         <div className='list2'>
-          <h2>Past Experience:</h2>
+          <h2  className='h'> Past Experience:</h2>
           <ul>
             <li>Core Java (J2SE)</li>
             <li>Advanced Java (J2EE)</li>
@@ -35,7 +35,7 @@ function Skills() {
           </ul>
         </div>
         <div className='list3'>
-        <h2>Familiar:</h2>
+        <h2 className='h'>Familiar:</h2>
         <ul>
             <li>PHP</li>
             <li>C</li>

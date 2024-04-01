@@ -1,0 +1,48 @@
+ @media (max-width: 500px) {
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+}
+@media (max-width: 370px) {
+    .main{
+       margin-left: 0;
+       
+    }
+    .info{
+        margin-left: 0;
+    }
+    .contact-content{
+        margin-left: 0;
+    }
+}
+a{
+    color: white;
+}
+.info{
+    margin-top:2vw;
+    color:white;
+    justify-content:center;
+    align-items:center;
+    
+}
+.main{
+   
+   justify-content: center;
+   align-items: center;
+   display:flex;
+   
+}
+.contact-content{
+   
+    width:fit-content;
+    margin: auto;
+} 
+@media (min-width: 501px) and (max-width: 800px) {
+    .contact-content {
+        margin: 0; 
+    }
+}
+

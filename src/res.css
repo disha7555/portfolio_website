@@ -1,0 +1,21 @@
+a.res-a{
+    color: blueviolet;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+.resume-container{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 4vw;
+}
+.res-h{
+    font-size:1.7rem;
+}
