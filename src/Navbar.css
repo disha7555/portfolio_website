@@ -20,14 +20,14 @@
     align-items: center;
   }
   
-  .navbar-menu Link {
+  .navbar-menu a {
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
     transition: background-color 0.3s ease;
   }
   
-  .navbar-menu Link:hover {
+  .navbar-menu a:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
   
@@ -64,7 +64,7 @@
       display: flex;
     }
   
-    .navbar-menu Link {
+    .navbar-menu a {
       padding: 10px 20px;
     }
   
@@ -76,7 +76,7 @@
 
 
 
-  .navbar-menu Link {
+  .navbar-menu a {
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
@@ -88,8 +88,8 @@
     background-color: rgba(255, 255, 255, 0.1);
   }
    */
-  .navbar-menu Link.active {
-    background-color: #4CAF50; /* Change background color for selected link */
+  .navbar-menu a.active {
+    background-color: #4CAF50; /* Change background color for selected a */
     color: #fff; /* Change text color for selected link */
   }
   .active{
