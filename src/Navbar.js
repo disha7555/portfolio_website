@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css'; // Import your CSS file for styling
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [selectedLink, setSelectedLink] = useState();
@@ -19,33 +20,33 @@ function Navbar() {
       <div className="navbar-container">
         <div className="navbar-brand">Disha Shah</div>
         <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
-          <a href="about"   className={selectedLink === 'about' ? 'active' : ''}
-          onClick={() => handleLinkClick('about')}>About</a>
+          <Link to="/about"   className={selectedLink === 'about' ? 'active' : ''}
+          onClick={() => handleLinkClick('about')}>About</Link>
 
-          <a href="skills"   className={selectedLink === 'skills' ? 'active' : ''}
-          onClick={() => handleLinkClick('skills')}>Skills</a>
+          <Link to="/skills"   className={selectedLink === 'skills' ? 'active' : ''}
+          onClick={() => handleLinkClick('skills')}>Skills</Link>
 
        
-<a href="academics"   className={selectedLink === 'academics' ? 'active' : ''}
-          onClick={() => handleLinkClick('academics')}>Academics</a>
+<Link to="/academics"   className={selectedLink === 'academics' ? 'active' : ''}
+          onClick={() => handleLinkClick('academics')}>Academics</Link>
 
-          <a href="projects"   className={selectedLink === 'projects' ? 'active' : ''}
-          onClick={() => handleLinkClick('projects')}>Projects</a>
+          <Link to="/projects"   className={selectedLink === 'projects' ? 'active' : ''}
+          onClick={() => handleLinkClick('projects')}>Projects</Link>
 
-          <a href="miniprojects"   className={selectedLink === 'miniprojects' ? 'active' : ''}
-          onClick={() => handleLinkClick('miniprojects')}>Mini Projects</a>
+          <Link to="/miniprojects"   className={selectedLink === 'miniprojects' ? 'active' : ''}
+          onClick={() => handleLinkClick('miniprojects')}>Mini Projects</Link>
 
-            <a href="experience"   className={selectedLink === 'experience' ? 'active' : ''}
-          onClick={() => handleLinkClick('experience')}>Experience</a>
+            <Link to="/experience"   className={selectedLink === 'experience' ? 'active' : ''}
+          onClick={() => handleLinkClick('experience')}>Experience</Link>
 
-<a href="resume"   className={selectedLink === 'resume' ? 'active' : ''}
-          onClick={() => handleLinkClick('resume')}>Resume</a>
+<Link to="/resume"   className={selectedLink === 'resume' ? 'active' : ''}
+          onClick={() => handleLinkClick('resume')}>Resume</Link>
 
-          <a href="achievements"   className={selectedLink === 'achievements' ? 'active' : ''}
-          onClick={() => handleLinkClick('achievements')}>Achievements</a>
+          <Link to="/achievements"   className={selectedLink === 'achievements' ? 'active' : ''}
+          onClick={() => handleLinkClick('achievements')}>Achievements</Link>
 
-          <a href="contact"   className={selectedLink === 'contact' ? 'active' : ''}
-          onClick={() => handleLinkClick('contact')}>Contact</a>
+          <Link to="/contact"   className={selectedLink === 'contact' ? 'active' : ''}
+          onClick={() => handleLinkClick('contact')}>Contact</Link>
         </div>
         <button className="navbar-toggle" onClick={toggleNavbar}>
           <span></span>

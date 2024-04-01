@@ -15,6 +15,7 @@ import React from 'react';
 import { useState } from 'react';
 import Skills from './Skills';
 import Resume from './Resume';
+import Nav from './Nav';
 import Experience from './Experience';
 function App() {
 
@@ -23,7 +24,9 @@ function App() {
   return (<>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<About/>}></Route>
+      {/* <Route path="/" element={<Nav/>}/>
+        <Route index element={<About/>}/> */}
+        <Route path='/' element={<About/>}/>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/skills" element={<Skills/>}></Route>
         <Route path="/academics" element={<Academics/>}></Route>
