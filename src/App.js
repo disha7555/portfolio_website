@@ -1,6 +1,6 @@
 
 import './App.css';
-import {BrowserRouter,Route,Routes} from "react-router-dom";
+import {HashRouter,Route,Routes} from "react-router-dom";
 import About from './About';
 //import About from './Skills';
 import Contact from './Contact';
@@ -22,7 +22,7 @@ function App() {
   const [projectsdata,SetProjectsData]=useState(projects_data);
   const [miniprojectsData,SetMiniprojectsData]=useState(miniprojects_data);
   return (<>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
       {/* <Route path="/" element={<Nav/>}/>
         <Route index element={<About/>}/> */}
@@ -38,7 +38,7 @@ function App() {
         <Route path="/resume" element={<Resume/>}></Route>
         <Route path="/experience" element={<Experience/>}></Route>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </>);
 }
 
