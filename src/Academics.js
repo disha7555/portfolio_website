@@ -31,9 +31,9 @@ function Academics() {
                       <td>B.E.(Computer Engineering)</td>
                       <td>GTU</td>
                       <td>2023</td>
-                      <td>CPI: <br/>9.09
+                      <td>CPI: 9.09
                         <br/><br/>
-                        CGPA: 8.63
+                        CGPA:  8.63
                       </td>
                     </tr>
                   </table>

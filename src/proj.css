@@ -50,7 +50,9 @@
     line-height: 22px;
     margin: 10px 0;
   }
-
+  .a-link{
+    color: blueviolet;
+  }
   @media (max-width: 998px) {
     .main-card--cointainer {
       display: grid;

@@ -33,7 +33,7 @@ function MiniProjects(props) {
           <div className='img'>
           <a href={link}><img className="card-image" src={image} alt="no img" width="400px" height="250px" /></a>
         </div>
-         <p>See Live project:</p><a href={link}>Click here</a>
+         <p>See Live project:</p><a className="a-link" href={link}>Click here</a>
          </div>
           
         </div>
