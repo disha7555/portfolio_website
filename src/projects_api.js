@@ -1,12 +1,6 @@
 const projects_data=
 [
-	{	"id":1,
-		"name":"Contact Form",
-		"frontend_technologies":"HTML,CSS,Bootstrap",
-		"backend_technologies":"nodejs,expressjs,mongoose",
-		"link":"https://contact-form-nodejs-d.onrender.com/",
-		"image":"images/contact_form.png"
-    },
+	
 
 	{	"id":2,
 		"name":"Restaurant Menu Website",
@@ -38,6 +32,13 @@ const projects_data=
 		"link":"https://todo-list-jmdk.onrender.com",
 		"image":"images/ToDo_e.png"
       },
+      {	"id":1,
+		"name":"Contact Form",
+		"frontend_technologies":"HTML,CSS,Bootstrap",
+		"backend_technologies":"nodejs,expressjs,mongoose",
+		"link":"https://contact-form-nodejs-d.onrender.com/",
+		"image":"images/contact_form.png"
+    },
     {	"id":5,
     "name":"Survey Project",
     "frontend_technologies":"HTML,CSS,ReactJS",
