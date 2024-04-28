@@ -31,13 +31,7 @@ const miniprojects_data=
 		"link":"https://feedback-airflight-new.onrender.com/",
 		"image":"images/airflight.png"
       },
-	  {	"id":5,
-		"name":"TODO List(with add,edit,delete)",
-		"frontend_technologies":"HTML,CSS,ReactJS",
-		"backend_technologies":"none",
-		"link":"https://todo-list-jmdk.onrender.com",
-		"image":"images/ToDo_e.png"
-      },
+	  
 	  {	"id":6,
 	  "name":"Analog Clock",
 	  "frontend_technologies":"HTML,CSS,JavaScript",
