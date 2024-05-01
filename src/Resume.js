@@ -8,7 +8,7 @@ function Resume() {
       <div style={{backgroundColor:"#333",color:"white", fontSize: "1.5rem", padding: "10px 20px"}}>Resume</div>
       <div className='resume-container'>
         <div className='res-h'>Click this button to see my resume: </div>
-        <a className='res-a' href=" https://drive.google.com/file/d/1rz-kJn7uE5__dRGWNwJTLyrBMT9nNjDS/view">
+        <a className='res-a' href=" https://drive.google.com/file/d/1ogus0Ng14YJSi_mzMSStj4CxZ0D9zLft/view?usp=sharing">
          My Resume
         </a>
       </div>
