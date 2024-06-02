@@ -26,8 +26,9 @@
       max-width: 400px;
     }
     img{
+     
       width: 380px;
-      margin-left: 0;
+      margin-left: 5vh;
       margin-right: 2vw;
       
     }
@@ -46,8 +47,8 @@
     }
     img{
       width:370px;
-      margin-left: 0;
-      margin-right: 2vw;
+      margin-left: 0vw;
+      margin-right: 3vw;
       
     }
   }
@@ -98,10 +99,7 @@
     }
   }
   
-  .card-image {
-    /* width: 100%; */
-    /* height: auto; */
-  }
+  
   
   .card-content {
     padding: 16px;

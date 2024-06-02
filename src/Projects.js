@@ -32,7 +32,7 @@ function Projects(props) {
           <p className="card-description">Frontend technologies:{frontend_technologies}</p>
           <p className="card-description">Backend technologies:{backend_technologies}</p>
           <div className='img'>
-          <a href={link}><img className="card-image" src={image} alt="no img" width="400px" height="250px" /></a>
+          <a href={link}><img className="card-image" src={image} alt="no img" width="414px" height="250px" /></a>
         </div>
          <p>See Live project:</p><a className="a-link" href={link}>Click here</a>
          </div>

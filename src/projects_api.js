@@ -39,6 +39,13 @@ const projects_data=
 		"link":"https://contact-form-nodejs-d.onrender.com/",
 		"image":"images/contact_form.png"
     },
+    {	"id":500,
+		"name":"Signup Login with Validation",
+		"frontend_technologies":"HTML,CSS",
+		"backend_technologies":"nodejs,expressjs,mongoose",
+		"link":"https://signup-login-nodejs-mongoose.onrender.com/",
+		"image":"images/signup_login.png"
+    },
     {	"id":5,
     "name":"Survey Project",
     "frontend_technologies":"HTML,CSS,ReactJS",
